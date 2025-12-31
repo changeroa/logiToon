@@ -2,6 +2,8 @@
 
 AI-powered children's picture book generator that transforms complex topics into engaging 12-panel visual stories.
 
+![Logitoon Demo](demo.png)
+
 ## Features
 
 - **Multi-Agent Pipeline**: Logic Expert → Story Author → Visual Director → Image Generator
@@ -55,23 +57,22 @@ GEMINI_API_KEY=your_api_key_here
 
 ```
 logitoon/
-├── components/          # React UI components
-│   ├── StoryBoard.tsx   # Main story reader with page flip animation
-│   ├── HeroInput.tsx    # Topic input component
-│   ├── LibraryView.tsx  # Saved stories browser
-│   └── ...
-├── services/
-│   └── geminiService.ts # Gemini API integration
-├── src/prompts/         # AI prompt engineering system
-│   ├── versioned/       # Versioned prompts (logic, story, visual)
-│   ├── styles/          # Art style definitions
-│   └── validators/      # Child-safety validators
-├── utils/
-│   ├── db.ts            # IndexedDB operations
-│   └── imageUtils.ts    # Image processing utilities
-├── App.tsx              # Main application component
-├── constants.ts         # Style library & configurations
-└── types.ts             # TypeScript type definitions
+├── src/
+│   ├── components/      # React UI components
+│   ├── services/        # Gemini API integration
+│   ├── utils/           # IndexedDB, image utilities
+│   ├── data/            # Featured topics data
+│   ├── prompts/         # AI prompt engineering system
+│   │   ├── versioned/   # Versioned prompts (logic, story, visual)
+│   │   ├── styles/      # Art style definitions
+│   │   └── validators/  # Child-safety validators
+│   ├── App.tsx          # Main application component
+│   ├── main.tsx         # Entry point
+│   ├── types.ts         # TypeScript definitions
+│   └── constants.ts     # Style library & configs
+├── index.html
+├── package.json
+└── vite.config.ts
 ```
 
 ## How It Works
