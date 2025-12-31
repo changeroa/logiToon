@@ -11,7 +11,7 @@ import {
   STYLE_LIBRARY,
   AGE_GROUPS,
   type PromptConfig,
-} from "../src/prompts";
+} from "../prompts";
 
 // --- Types ---
 import {

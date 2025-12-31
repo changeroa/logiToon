@@ -6,9 +6,9 @@
  */
 
 import { AgeGroup, CharacterType, StoryTone, GenerationConfig, StylePresetId } from "./types";
-import { getLogicPrompt } from "./src/prompts/versioned/logic";
-import { getStoryPrompt } from "./src/prompts/versioned/story";
-import { getVisualPrompt } from "./src/prompts/versioned/visual";
+import { getLogicPrompt } from "./prompts/versioned/logic";
+import { getStoryPrompt } from "./prompts/versioned/story";
+import { getVisualPrompt } from "./prompts/versioned/visual";
 
 // --- Re-export from new prompt system for backward compatibility ---
 // Note: These are kept here for existing imports to continue working
