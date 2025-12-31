@@ -4,6 +4,8 @@ AI-powered children's picture book generator that transforms complex topics into
 
 ![Logitoon Demo](demo.png)
 
+[![Watch Demo Video](https://img.youtube.com/vi/SmbaU7BjZRg/maxresdefault.jpg)](https://www.youtube.com/watch?v=SmbaU7BjZRg)
+
 ## Features
 
 - **Multi-Agent Pipeline**: Logic Expert → Story Author → Visual Director → Image Generator
