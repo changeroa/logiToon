@@ -1,0 +1,7 @@
+{
+  "name": "LogiToon - AI Story Director",
+  "description": "An educational app that turns children's questions into 12-panel motion comic scripts using AI metaphors.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
